@@ -1,19 +1,18 @@
 
-// const is a function Scope
-
+// const 
 
 function message(){
 
-    const msg ="hello"
-
     if(true){
+        const msg ="hello"
+
         console.log("in if condition", msg)
     }
 
+//  console.log("in if condition", msg)
 
 }
 
-//  console.log("in if condition", msg)
 message()
 
 // declaration and initialization
