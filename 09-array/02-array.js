@@ -2,9 +2,9 @@
 
 const vegetables =["potato", "tomato", "ginger", "chilli"]
 
-console.log("first aliment of array :", vegetables[0])
+console.log("first element of array :", vegetables[0])
 
-console.log("last aliment of array :", vegetables[vegetables.length-1])
+console.log("last element of array :", vegetables[vegetables.length-1])
 
 vegetables[1]="carrot"
 
