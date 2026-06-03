@@ -11,9 +11,9 @@ console.log("type",typeof(fruits))
 
 // using 
 
-const variable = new Array("potato", "tomato", "ginger", "chilli")
+const vegetables = new Array("potato", "tomato", "ginger", "chilli")
 
-console.log("array of variable", variable)
+console.log("array of vegetables", vegetables)
 
-console.log("type variable array",typeof(fruits))
+console.log("type vegetables array",typeof(vegetables))
 
