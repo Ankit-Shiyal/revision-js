@@ -11,3 +11,13 @@ const person={
 console.log(person)
 console.log(typeof person)
 
+// 
+
+const student = new Object();
+console.log(typeof student)
+
+student.name = "Ankit",
+student.exam="upsc",
+student.block="A"
+
+console.log("student")
