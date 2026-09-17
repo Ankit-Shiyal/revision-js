@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #0f172a; /* dark blue-black */
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+}
+
+.navbar {
+    background: #ffffff !important;
+    border-radius: 15px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    height: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0d6efd !important;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    height: 100%;
+    background: #1f2235; 
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px;
+}
+
+.card h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card p {
+    color: #00ffcc;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 5px 12px;
+    font-size: 13px;
+}
+
+.btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background: #6c757d;
+    color: white;
+}
+
+.btn-outline-danger {
+    border-color: #ff4d4d;
+    color: #ff4d4d;
+}
+
+.btn-outline-danger:hover {
+    background: #ff4d4d;
+    color: white;
+}
+
+.btn-outline-primary {
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.table img {
+    border-radius: 8px;
+}
+
