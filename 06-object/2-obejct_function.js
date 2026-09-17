@@ -14,3 +14,4 @@ console.log("Hotel detail 2:", hotel2);
 
 const hotel3 = new Hotel(3, 20, 15);
 console.log("Hotel detail 3:", hotel3);
+
